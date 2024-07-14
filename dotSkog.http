@@ -1,0 +1,6 @@
+@dotSkog_HostAddress = http://localhost:5153
+
+GET {{dotSkog_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
