@@ -1,6 +1,6 @@
 @dotSkog_HostAddress = http://localhost:5153
 
-GET {{dotSkog_HostAddress}}/weatherforecast/
+GET {{dotSkog_HostAddress}}/api/users
 Accept: application/json
 
 ###
