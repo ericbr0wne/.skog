@@ -1,6 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
+
 namespace dotSkog.Data.Models
 {
     public class Comment
@@ -10,11 +11,11 @@ namespace dotSkog.Data.Models
         public string Content { get; set; } = string.Empty;
         public DateTime Timestamp { get; set; }
 
-        [ForeignKey("Users")]
+        [ForeignKey("User")]
         public int UserId { get; set; } // Foreign key for the User who created the comment
         public User? User { get; set; } // Navigation property to the User
 
-        [ForeignKey("Posts")]
+        [ForeignKey("Post")]
         public int PostId { get; set; } // Foreign key for the Post the comment is on
         public Post? Post { get; set; } // Navigation property to the Post
     }
