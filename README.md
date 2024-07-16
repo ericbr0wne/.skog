@@ -36,7 +36,7 @@ A social network API experiment - no content?
 ## Getting Started
 
 1. **Prerequisites:**
-   - .NET SDK (version X.X or later)
+   - .NET SDK (version 8.0.303 or later)
    - Docker Desktop (if using Docker)
    - PostgreSQL (running locally or in Docker)
    - Node.js and npm
@@ -50,19 +50,19 @@ A social network API experiment - no content?
    - Run the application: `dotnet run`
 
 3. **API Endpoints:**
-   - TBA
+   - 
 
 ## API Documentation
 
-- **Swagger UI:** (If enabled) Access the Swagger UI at `http://localhost:5153/swagger` (or your configured port) to explore the API endpoints and try them out.
-- **Custom Documentation:** (Optional)  You can create your own API documentation using a tool like Redoc or by writing markdown files in a `docs` folder.
+- **Swagger UI:** 
+- **Custom Documentation:** 
 
 ## Contributing
 
-- TBA
+- 
 
 ## License
 
-- TBA
+- 
 
 ---
