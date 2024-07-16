@@ -8,6 +8,12 @@ var builder = WebApplication.CreateBuilder(args);
 // Database Configuration (Entity Framework Core)
 builder.Services.AddDbContext<MyDbContext>(options => options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
 
+// Add services to the container.
+builder.Services.AddControllers();
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen();
+
+
 var app = builder.Build();
 
 // Database Initialization (optional, but recommended)
@@ -29,10 +35,6 @@ using (var scope = app.Services.CreateScope()) // <-- Add this using block
 }
 
 
-// Add services to the container.
-builder.Services.AddControllers();
-builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
 
 
 // Configure the HTTP request pipeline.
