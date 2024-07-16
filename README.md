@@ -16,7 +16,7 @@ Welcome to dotSkog, a content free social networking platform built using ASP.NE
 
 ## Introduction
 
-A social network API experiment - no content?
+A social network API experiment - no content community.
 
 ## Features
 
