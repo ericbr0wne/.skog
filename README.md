@@ -1,5 +1,5 @@
  
-![Trollskog](https://github.com/ericbr0wne/dotSkog/blob/main/images/Pr%C3%A4staskogen_-naturreservat-med-vresbo_JohannesErlandssonMOSTPHOTOS.jpg?raw=true))
+![Trollskog](https://github.com/ericbr0wne/dotSkog/blob/main/images/Pr%C3%A4staskogen_-naturreservat-med-vresbo_JohannesErlandssonMOSTPHOTOS.jpg?raw=true)
 
 # dotSkog - Social Networking API
 Welcome to dotSkog, a content free social networking platform built using ASP.NET Core Web API, Entity Framework Core, and PostgreSQL.
